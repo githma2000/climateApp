@@ -5,8 +5,7 @@
   display: flex;
   align-items: center;
 }
-
-.weather-app {
+git .weather-app {
   display: flex;
   flex-direction: column;
   justify-content: center;
