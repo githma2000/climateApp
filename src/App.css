@@ -4,8 +4,10 @@
   background-color: #082f92;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
-git .weather-app {
+
+.weather-app {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -16,8 +18,20 @@ git .weather-app {
   text-align: center;
   margin: 0px auto;
   border-radius: 10px;
-  padding-bottom: 32px;
+  padding: 20px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.app-title {
+  font-size: 2.5rem;
+  color: #e6e7ed;
+  margin-bottom: 10px;
+}
+
+.app-subtitle {
+  font-size: 1.2rem;
+  color: #e6e7ed;
+  margin-bottom: 20px;
 }
 
 .city-search {
@@ -30,10 +44,14 @@ git .weather-app {
   border-radius: 20px;
   font-size: 16px;
   background-color: #e5eef0;
-  padding: 6px 30px 6px 30px;
-  -webkit-transition: width 0.4s ease-in-out;
+  padding: 6px 30px;
   transition: width 0.4s ease-in-out;
   color: #333;
+  margin-bottom: 20px;
+}
+
+.weather-info {
+  margin-top: 20px;
 }
 
 .city-name {
@@ -42,14 +60,16 @@ git .weather-app {
   color: #e6e7ed;
 }
 
-.data {
-  display: flex;
-  font-size: 400;
-  color: #e6e7ed;
+.date {
+  color: #14c794;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
 .icon-temp {
   display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 3rem;
   font-weight: 600;
   color: #e3b317;
@@ -79,10 +99,4 @@ git .weather-app {
   color: #cf2e0e;
   font-size: 24px;
   margin-top: auto;
-}
-
-.date {
-  color: #14c794;
-  font-size: 20px;
-  margin-bottom: 10px;
 }
